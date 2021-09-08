@@ -2,10 +2,10 @@ const app = Vue.createApp({
     data() {
         return {
             firstName: 'John',
-            lastNmae: 'doe',
+            lastName: 'doe',
             email: 'Johndoe@gamil.com',
             gender: 'male',
-            picture: 'https://randomuser.me/api/potraits/men/10.jpg',
+            picture: 'https://randomuser.me/api/portraits/men/10.jpg',
         }
     },
 })
