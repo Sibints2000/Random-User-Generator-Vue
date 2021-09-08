@@ -9,10 +9,10 @@
 </head>
 <body>
     <div id="app">
-        <img v-bind:src="picture" alt="">
+        <img v-bind:class="gender" v-bind:src="picture" alt="">
         <h1>{{firstName}} {{lastName}}</h1>
         <h3>Email: {{email}}</h3>
-        <button>Get Random User</button>
+        <button :class="gender">Get Random User</button>
 
     </div>
     
